@@ -21,7 +21,7 @@ This library imports the right library automatically:
 
 See the examples shipped with such libraries to learn more about using WiFi functionality. These WiFi implementations share most of their API, so good chances are your sketch or library will be truly platform-agnostic.
 
-(If you're looking for the library to use for the retired Arduino WiFi Shield, it's now called [WiFiShield](https://github.com/arduino-libraries/WiFiShield).)
+(If you're looking for the library to use for the retired Arduino WiFi Shield, it's now called [Arduino_WiFiShield](https://github.com/arduino-libraries/Arduino_WiFiShield).)
 
 ## Usage
 
