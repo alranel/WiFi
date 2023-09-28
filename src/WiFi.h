@@ -7,6 +7,10 @@
   #error "The WiFi library for the WiFi Shield was renamed to Arduino_WiFiShield. In order to compile your sketch you'll need to install that one and change the #include line in your code."
 #elif defined(ARDUINO_ARCH_ESP8266)
   #include <ESP8266WiFi.h>
+#elif defined(ARDUINO_UNOR4_WIFI)
+  #include <WiFiS3.h>
+#elif defined(ARDUINO_PORTENTA_C33)
+  #include <WiFiC3.h>
 #else
   #error "No WiFi library known for this board."
 #endif
