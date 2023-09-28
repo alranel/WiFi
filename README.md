@@ -8,12 +8,14 @@ This library is the generic WiFi library for any Arduino and Arduino-compatible 
 
 Using this library in sketches and other libraries is the **recommended way** to use WiFi as it ensures the maximum code portability.
 
-This library imports the the right library automatically:
+This library imports the right library automatically:
 
 | Boards | Underlying library |
 |--|--|
+| UNO R4 boards | [Renesas/WiFiS3](https://github.com/arduino/ArduinoCore-renesas/tree/main/libraries/WiFiS3) |
 | NINA-based boards<br />(MKR WiFi 1010, Nano 33 IoT, Nano RP2040 Connect etc.) | [WiFiNINA](https://github.com/arduino-libraries/WiFiNINA) |
-| Portenta boards | [MBed/WiFi](https://github.com/arduino/ArduinoCore-mbed/tree/master/libraries/WiFi) |
+| Portenta Mbed boards | [MBed/WiFi](https://github.com/arduino/ArduinoCore-mbed/tree/master/libraries/WiFi) |
+| Portenta Renesas boards | [Renesas/WiFi](https://github.com/arduino/ArduinoCore-renesas/tree/main/libraries/WiFi) |
 | ESP8266 boards | [ESP8266WiFi](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi) |
 | ESP32 boards | [ESP32/WiFi](https://github.com/espressif/arduino-esp32/tree/master/libraries/WiFi) |
 
